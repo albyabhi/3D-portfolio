@@ -56,14 +56,13 @@ const Projects = () => {
                     <img  src="/asset/arrow-up.png" className="w-3 h-3" alt="arrow" />
                 </a>
             </div>
-            <div className="flex justify-between items-center mt-7">
+            <div className="flex justify-between items-center mt-7 z-20">
                 <button className="arrow-btn" onClick={HandlePrev}>
-                  <img src="assets/left-arrow.png"  alt="left arrow" className="w-4 h-4"/>
+                  <img src="assets/left-arrow.png" alt="left arrow" className="w-4 h-4"/>
                 </button>
                 <button className="arrow-btn" onClick={HandleNext}>
-                  <img src="assets/right-arrow.png"  alt="right arrow" className="w-4 h-4"/>
+                  <img src="assets/right-arrow.png" alt="right arrow" className="w-4 h-4"/>
                 </button>
-
             </div>
           </div>
          
