@@ -16,7 +16,7 @@ const Contact = () => {
   const handleSubmit = () => {};
 
   return (
-    <section className="c-space my-10">
+    <section className="c-space my-10" id='contact'>
       <div className="relative min-h-screen flex items-center justify-center flex-col">
         
         <div className="contact-container">
